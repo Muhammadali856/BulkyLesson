@@ -1,29 +1,6 @@
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-html, body {
-    height: 100%; /* Make html and body take full viewport height */
-    margin: 0; /* Reset default margins */
-}
-
-body {
-    display: flex;
-    flex-direction: column; /* Stack children vertically */
-}
-
-.container {
-    flex: 1 0 auto; /* Allow container to grow and shrink, but not smaller than its content */
-    padding-bottom: 40px; /* Add padding to the bottom to prevent content overlap with the fixed footer */
-}
-
-footer {
-    flex-shrink: 0; /* Prevent footer from shrinking */
-    /* You already have some footer styles in your _Layout.cshtml */
-    min-height: 40px; /* Ensure footer has a minimum height */
-    display: flex; /* For centering content if needed */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-}
 
 a.navbar-brand {
     white-space: normal;
